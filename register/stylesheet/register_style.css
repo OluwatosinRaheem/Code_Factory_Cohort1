@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: darkred;
+}
+header{
+    
+    overflow: hidden;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+#logo{
+   
+    width: 40%;
+    float: left;
+}
+header img{
+margin: 0px;
+float: left;
+width: 40px;
+height: 40px;
+}
+nav{
+    float: right;
+    color: white;
+    margin-right: 10px;
+
+}
+
+main{
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    flex: auto;
+    color: burlywood;
+    background-color: darkred;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    display: block;
+    position: fixed;
+    margin: 0px;
+    display: flex ;
+    bottom: 0px;
+    justify-content: space-between;
+    width: 100vw
+}

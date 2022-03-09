@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Register</title>
+        <link rel="stylesheet" type="text/css" href="/stylesheet/register_style.css">
+    </head>
+    <body>
+<!--header for the LOGO-->
+        <header>
+            <div id="logo">
+                <H1><img src="\images\code_factory.jpg"  alt="CODE FACTORY"> CODE FACTORY </H1>
+            </div>
+             <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="\RESUME\students.html">About</a></li>
+                   
+                    
+                </ul>
+            </nav>
+        </header>
+    <!--
+        form for register use GET, not POST
+    -->
+    
+        <main>
+            <form method="Get" action="">
+                First Name:<input type="text" name="First Name"> <br>
+                Last Name:<input type="text" name="Last Name" required><br>
+                Password:<input type="password" min="6" name="Password">
+                <br>
+                Email:<input type="email" required name="Email"><br>
+                DOB:<input type="date"name="DOB">
+                <br>
+                Gender: <br><input type="radio" name="gender" value="Male">Male <br>
+                    <input type="radio" name="gender" value="Female">Female<br>
+                    <input type="radio" name="gender" value="Other">Other
+                     <br>
+                Pets:<br>
+                    <input type="checkbox" name="Dog">Dog
+                    <br>
+                    <input type="checkbox" name="Cat">Cat <br>
+                    <input type="checkbox" name="Fish">Fish<br>
+                Cars:<br> 
+                    <select name="Cars" >
+                        <option value="masarati">masarati</option>
+                        <option value="volvo">volvo</option>
+                    </select>
+                    <br>
+                <input type="submit" value="Register!">
+                <input type="Reset">
+            </form>
+        </main>
+        <!--Footer for form-->
+        <footer >
+            Copyright by BTS
+            <nav>
+                Created by Tosin
+            </nav>
+        </footer>
+    </body>
+</html>
